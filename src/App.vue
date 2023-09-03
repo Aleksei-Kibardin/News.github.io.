@@ -106,6 +106,7 @@ export default {
       this.endIndex += 9
       if(this.endIndex > this.listNews.items.length && respons != false){
         this.activeButtonPage = false
+        console.log("hi")
       }
     },
   },
