@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "test": "echo \"Error: no test specified\" &amp;&amp; exit 1",
+    "build": "webpack",
+    "watch": "webpack -w",  
+  },
   "compilerOptions": {
     "target": "es5",
     "module": "esnext",
